@@ -1,0 +1,1 @@
+{"version":3,"file":"votes.d.ts","sourceRoot":"","sources":["../../src/api/votes.ts"],"names":[],"mappings":"AACA,OAAO,EAEH,kBAAkB,EAClB,wBAAwB,EACxB,wBAAwB,EACxB,sBAAsB,EACtB,mBAAmB,EACnB,gBAAgB,EAChB,oBAAoB,EACvB,MAAM,uBAAuB,CAAC;AAE/B,eAAO,MAAM,QAAQ;;;;;;mnBA6DnB,CAAC;AAEH,eAAO,MACH,kBAAkB,sCAClB,qBAAqB,yCACrB,qBAAqB,yCACrB,qBAAqB,yCACrB,yBAAyB,6CACzB,4BAA4B,8CACpB,CAAC"}

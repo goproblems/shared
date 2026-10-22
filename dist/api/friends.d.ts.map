@@ -1,0 +1,1 @@
+{"version":3,"file":"friends.d.ts","sourceRoot":"","sources":["../../src/api/friends.ts"],"names":[],"mappings":"AAEA,OAAO,EACH,kBAAkB,EAClB,+BAA+B,EAC/B,mBAAmB,EACnB,wBAAwB,EACxB,yBAAyB,EACzB,oBAAoB,EACvB,MAAM,uBAAuB,CAAC;AAE/B,eAAO,MAAM,UAAU;;;;;;;mnBA8ErB,CAAC;AAEH,eAAO,MACH,oBAAoB,0CACpB,6BAA6B,mDAC7B,kCAAkC,wDAClC,wCAAwC,8DACxC,iCAAiC,uDACjC,2BAA2B,+CACjB,CAAC"}

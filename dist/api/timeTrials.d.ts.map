@@ -1,0 +1,1 @@
+{"version":3,"file":"timeTrials.d.ts","sourceRoot":"","sources":["../../src/api/timeTrials.ts"],"names":[],"mappings":"AACA,OAAO,EACH,iBAAiB,EACjB,0BAA0B,EAC1B,SAAS,EACT,mBAAmB,EACnB,wBAAwB,EAC3B,MAAM,uBAAuB,CAAC;AAE/B,eAAO,MAAM,aAAa;;YAIT,MAAM,GAAG,MAAM;+BAAyB,MAAM;;;;;;mnBAqD7D,CAAC;AAEH,eAAO,MACH,0BAA0B,mDAC1B,8BAA8B,uDAC9B,0BAA0B,mDAC1B,4BAA4B,qDAC5B,6BAA6B,oDAChB,CAAC"}

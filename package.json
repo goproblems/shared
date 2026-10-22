@@ -1,6 +1,6 @@
 {
     "name": "@goproblems/shared",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "private": true,
     "description": "Shared GoProblems API contracts and Redux Toolkit state for web and native applications.",
     "license": "UNLICENSED",
@@ -61,20 +61,20 @@
     },
     "peerDependencies": {
         "@reduxjs/toolkit": "^2.12.0",
+        "ghostban": "^3.0.0-alpha.157",
         "react": "^18.2.0 || ^19.0.0",
-        "react-redux": "^9.0.0",
-        "ghostban": "^3.0.0-alpha.157"
+        "react-redux": "^9.0.0"
     },
     "devDependencies": {
+        "@reduxjs/toolkit": "2.12.0",
+        "@types/qs": "^6.15.1",
         "@types/react": "18.3.18",
         "@types/react-dom": "18.3.5",
+        "ghostban": "github:goproblems/ghostban#v3.0.0-alpha.157",
         "react": "18.3.1",
         "react-dom": "18.3.1",
-        "typescript": "6.0.3",
-        "ghostban": "github:goproblems/ghostban#v3.0.0-alpha.157",
-        "@types/qs": "^6.15.1",
-        "@reduxjs/toolkit": "2.12.0",
-        "react-redux": "9.3.0"
+        "react-redux": "9.3.0",
+        "typescript": "6.0.3"
     },
     "packageManager": "pnpm@11.10.0"
 }

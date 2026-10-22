@@ -1,0 +1,1 @@
+{"version":3,"file":"statistics.d.ts","sourceRoot":"","sources":["../../src/api/statistics.ts"],"names":[],"mappings":"AACA,OAAO,EAAC,kBAAkB,EAAE,0BAA0B,EAAC,MAAM,uBAAuB,CAAC;AAErF,eAAO,MAAM,aAAa;;;eAUH,MAAM;gBACL,MAAM;gBACN,MAAM,GAAG,UAAU,GAAG,UAAU,GAAG,QAAQ,GAAG,QAAQ;uBAC/C,KAAK,GAAG,MAAM;;mnBAiB3C,CAAC;AAEH,eAAO,MAAO,uBAAuB,gDAAE,+BAA+B,sDACrD,CAAC"}
