@@ -1,9 +1,11 @@
 {
     "name": "@goproblems/shared",
     "version": "0.1.0",
+    "private": true,
     "description": "Shared GoProblems API contracts and Redux Toolkit state for web and native applications.",
     "license": "UNLICENSED",
     "type": "module",
+    "main": "./dist/api/index.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/goproblems/shared.git"
@@ -47,9 +49,6 @@
             "import": "./dist/utils/*.js",
             "default": "./dist/utils/*.js"
         }
-    },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com"
     },
     "scripts": {
         "check": "tsc --noEmit",
