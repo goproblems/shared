@@ -1,0 +1,81 @@
+{
+    "name": "@goproblems/shared",
+    "version": "0.1.0",
+    "description": "Shared GoProblems API contracts and Redux Toolkit state for web and native applications.",
+    "license": "UNLICENSED",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/goproblems/shared.git"
+    },
+    "homepage": "https://github.com/goproblems/shared#readme",
+    "bugs": {
+        "url": "https://github.com/goproblems/shared/issues"
+    },
+    "files": [
+        "dist",
+        "src"
+    ],
+    "exports": {
+        "./api": {
+            "types": "./dist/api/index.d.ts",
+            "import": "./dist/api/index.js",
+            "default": "./dist/api/index.js"
+        },
+        "./api/*": {
+            "types": "./dist/api/*.d.ts",
+            "import": "./dist/api/*.js",
+            "default": "./dist/api/*.js"
+        },
+        "./contracts": {
+            "types": "./dist/contracts/index.d.ts",
+            "import": "./dist/contracts/index.js",
+            "default": "./dist/contracts/index.js"
+        },
+        "./contracts/*": {
+            "types": "./dist/contracts/*.d.ts",
+            "import": "./dist/contracts/*.js",
+            "default": "./dist/contracts/*.js"
+        },
+        "./state/*": {
+            "types": "./dist/state/*.d.ts",
+            "import": "./dist/state/*.js",
+            "default": "./dist/state/*.js"
+        },
+        "./utils/*": {
+            "types": "./dist/utils/*.d.ts",
+            "import": "./dist/utils/*.js",
+            "default": "./dist/utils/*.js"
+        }
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
+    "scripts": {
+        "check": "tsc --noEmit",
+        "build": "node scripts/build.mjs",
+        "test": "pnpm build && node --test test/*.test.mjs",
+        "prepack": "pnpm build"
+    },
+    "dependencies": {
+        "qs": "^6.15.3"
+    },
+    "peerDependencies": {
+        "@reduxjs/toolkit": "^2.12.0",
+        "react": "^18.2.0 || ^19.0.0",
+        "react-redux": "^9.0.0",
+        "ghostban": "^3.0.0-alpha.157"
+    },
+    "devDependencies": {
+        "@types/react": "18.3.18",
+        "@types/react-dom": "18.3.5",
+        "react": "18.3.1",
+        "react-dom": "18.3.1",
+        "typescript": "6.0.3",
+        "ghostban": "github:goproblems/ghostban#v3.0.0-alpha.157",
+        "@types/qs": "^6.15.1",
+        "@reduxjs/toolkit": "2.12.0",
+        "react-redux": "9.3.0"
+    },
+    "packageManager": "pnpm@11.10.0"
+}
